@@ -1,0 +1,281 @@
+
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --orange {
+    font-family: Rocher;
+    base-palette: 9;
+}
+
+@font-palette-values --red {
+    font-family: Rocher;
+    base-palette: 1;
+}
+
+@font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+}
+
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+}
+
+@font-palette-values --blue {
+    font-family: Rocher;
+    base-palette: 4;
+}
+
+@font-palette-values --green {
+    font-family: Rocher;
+    base-palette: 2;
+}
+
+@font-palette-values --white {
+    font-family: Rocher;
+    base-palette: 3;
+}
+
+@font-palette-values --lightyellow {
+    font-family: Rocher;
+    base-palette: 5;
+}
+
+@font-palette-values --yellow {
+    font-family: Rocher;
+    base-palette: 8;
+}
+
+@font-palette-values --lightblue {
+    font-family: Rocher;
+    base-palette: 10;
+}
+
+
+
+
+.grays {
+    font-palette: --Grays;
+    font-family: Rocher;
+}
+
+.purples {
+    font-palette: --Purples;
+    font-family: Rocher;
+}
+
+.mint {
+    font-palette: --Mint;
+    font-family: Rocher;
+}
+
+.blue {
+    font-palette: --blue;
+    font-family: Rocher;
+}   
+
+.green {
+    font-palette: --green;
+    font-family: Rocher;
+}
+
+.white {
+    font-palette: --white;
+    font-family: Rocher;
+}
+
+.lightyellow {
+    font-palette: --lightyellow;
+    font-family: Rocher;
+}
+
+.yellow {
+    font-palette: --yellow;
+    font-family: Rocher;
+}
+
+.lightblue {
+    font-palette: --lightblue;
+    font-family: Rocher;
+}
+
+.orange {
+    font-palette: --orange;
+    font-family: Rocher;
+}
+
+.red {
+    font-palette: --red;
+    font-family: Rocher;
+}
+
+
+.indexBody {
+    background-image: url(./conception-fond/OOAF0L0.jpg);
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+body .indexBody a button {
+    font-family: 'Rocher';
+    font-size: 20px;
+    background: blanchedalmond;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+body .indexBody a button:hover {
+    background: transparent;
+    color: #fff;
+}
+
+body .indexBody a button {
+    text-decoration: none;
+}
+
+.jokeBody {
+    background-image: url(./abstrait-lignes-ondulees-dans-tons-gris/july_06.jpg);
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jokeBody .jokeContainer {
+
+}
+
+.jokeBody .jokeContainer .dailyJoke {
+    font-palette: --blue;
+    font-family: 'Rocher';
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.jokeBody .jokeContainer .jokeVote {
+
+}
+
+.jokeBody .jokeContainer .jokeVote button {
+    font-family: 'Rocher';
+    font-size: 20px;
+    background: blanchedalmond;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+.jokeBody .jokeContainer .jokeVote button:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.jokeModal {
+    visibility: hidden;
+    background: azure;
+    border: 1px solid lightblue;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.jokeModal p {
+    font-family: 'Rocher';
+    font-size: 30px;
+    font-palette: --red;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.jokeModal .modalButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.jokeModal .modalButton a {
+    text-decoration: none;
+}
+
+.jokeModal .modalButton button {
+    font-family: 'Rocher';
+    font-size: 20px;
+    background: blanchedalmond;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+.writeAJokeBody {
+    background-image: url(./abstrait-lignes-ondulees-dans-tons-gris/july_06.jpg);
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.writeAJokeBody input {
+    font-family: 'Rocher';
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
